@@ -1,5 +1,5 @@
 stage ("CreateInstance") {
-    sh "aws ec2 run-instances --image-id ami-287dnf7 --count 1 --instance-type t2.micro --key-name SEIS665-03-Spring19-VA --security-group-ids sg-047314ec5ddc6d6fb --subnet-id subnet-201f2d6a --region us-east-1"
+    sh "aws ec2 run-instances --image-id ami-287dnf7 --count 1 --instance-type t2.micro --key-name SEIS665-03-Spring19-VA --security-group-ids sg-00430053df1f1136e --subnet-id subnet-201f2d6a --region us-east-1"
 
 }
 
